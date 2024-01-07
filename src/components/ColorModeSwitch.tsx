@@ -12,7 +12,7 @@ const ColorModeSwitch = () => {
         isChecked={colorMode === "dark"}
         onChange={toggleColorMode}
       />
-      <Text>{colorModeText}</Text>
+      <Text whiteSpace='nowrap'>{colorModeText}</Text>
     </HStack>
   );
 };
